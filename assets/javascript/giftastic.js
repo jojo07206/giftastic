@@ -30,7 +30,7 @@
 
       });
 
-      $(".animalbutton").on("click", function() {
+      $(document).on("click", ".animalbutton", function() {
         var animalname = $(this).attr("data-name");
   
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
@@ -56,6 +56,7 @@
               animalDiv.append(animalImage);
   
               $("#gifcontainer").prepend(animalDiv);
+
             }
           });
       });
