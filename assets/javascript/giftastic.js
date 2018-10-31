@@ -8,7 +8,7 @@
 
           var a = $("<button>");
 
-          a.addClass("button");
+          a.addClass("animalbutton");
 
           a.attr("data-name", topics[i]);
 
@@ -30,7 +30,7 @@
 
       });
 
-      $("button").on("click", function() {
+      $(".animalbutton").on("click", function() {
         var animalname = $(this).attr("data-name");
   
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
