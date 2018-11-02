@@ -4,8 +4,8 @@ button, div, form, input {
 
 #gifcontainer {
     float: left;
-    height: 1000px;
-    width: 1500px;
+    height: 1600px;
+    width: 1300px;
     border-style: solid;
     border-color: black;
 }
@@ -15,6 +15,51 @@ button, div, form, input {
 }
 
 .gif {
-    height: 250px;
-    width: 300px;
+    width: 400px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+}
+
+#gif0 {
+    float: left;
+}
+
+#gif1 {
+    float: left;
+}
+
+#gif2 {
+    float: left;
+}
+
+#gif3 {
+    float: left;
+    clear: left;
+}
+
+#gif4 {
+    float: left;
+}
+
+#gif5 {
+    float: left;
+}
+
+#gif6 {
+    float: left;
+    clear: left;
+}
+
+#gif7 {
+    float: left;  
+}
+
+#gif8 {
+    float: left;
+}
+
+#gif9 {
+    float: left;
+    clear: left;
 }
